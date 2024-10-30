@@ -307,26 +307,101 @@
 
 
 
-class Animal{
-    constructor(name,age){
-        this.name = name;
-        this.age = age;
-    }
+// class Animal{
+//     constructor(name,age){
+//         this.name = name;
+//         this.age = age;
+//     }
 
 
-    static gettingOld(age){
-        if (this.age > 10) {
-            return true;
-        }
-        return false;
-    }
+//     static gettingOld(age){
+//         if (age > 10) {
+//             return true;
+//         }
+//         return false;
+//     }
 
 
-}
+// }
 
 
-class Dog extends Animal{
-    constructor(name,age){
-        super(name,age)
-    }
-}
+// class Dog extends Animal{
+//     constructor(name,age){
+//         super(name,age)
+//     }
+
+
+//     makeSound(){
+//         console.log("Vov-vov!");
+        
+//     }
+
+
+// }
+
+
+
+
+// let dog1 = new Dog("bobik", 14)
+// dog1.makeSound()
+
+
+
+
+// Exercise 9
+
+
+// class Animal{
+//     constructor(name){
+//         this.name = name;
+//     }
+
+
+//     speak(){
+//         console.log(`${this.name} ovoz bermoqda...`);
+//     }
+
+
+// }
+
+
+// class Dog extends Animal{
+//     constructor(name){
+//         super(name);
+//     }
+
+
+//     speak(){
+//         super.speak()
+//         console.log("Vov-vov!");
+//     }
+
+
+
+// }
+
+
+
+// class Cat extends Animal{
+//     constructor(name){
+//         super(name);
+//     }
+
+
+//     speak(){
+//         super.speak()
+//         console.log("Miyov-miyov!");
+//     }
+
+
+
+// }
+
+
+
+
+
+// let dog1 = new Dog("bobik")
+// dog1.speak()
+// let cat1 = new Cat("kisya")
+// cat1.speak()
